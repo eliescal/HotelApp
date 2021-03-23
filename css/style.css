@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+:root{
+    
+    --f7-navbar-bg-color: #DD0D0D; /*navbar*/
+    --f7-navbar-text-color:#fff;
+    --f7-bars-bg-color:#fff;/*toolbar*/
+	--color-gris: #8f8f8f;
+	--color-negro: #000;
+    --fondo-gris: #eaebeb;
+	--color-rojo: #DD0D0D;
+	--color-verde: #1B7546;
+	
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: var(--color-gris);
+}
+
+h1,h2,h3,h5,h5,h6{
+	color: var(--color-negro);
+	margin-botton: 5px;
+	margin-top: 2px;
+	
+}
+h4{
+	font-size: 10px;
+	margin-top: 20px;
+	padding: -30px;
+}
+.navbar a{
+	
+	color:#fff;
+}
+.img-fluid{
+	max-width: 100%;
+}
+
+.intro h2{
+	font-size: 20px;
+	font-weight: 300;
+	
+}
+
+.intro h2 span{
+	font-weight: 500;
+	
+}
+
+.intro h3{
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.card-intro{
+	
+	background-color: var(--color-gris);
+	color: #fff;
+	box-shadow: none;
+	border-radius: 20px;
+	
+}
+
+.card-intro h3{
+	
+	color: #fff;
+	font-size: 22px;
+	margin-bottom:  40px;
+}
+
+.card-intro .precio{
+	background-color: var(--color-gris);
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.card-intro  img{
+	
+	width: 150px;
+}
+
+.card-footer{
+	
+	background-color: var(--color-verde);
+	text-align: left;
+	color:#fff;
+	border-radius: 10px;
+	padding-top: -10px;
+}
+.bloc-title {
+	font-size: 22px;
+	overflow: initial;
+	color:var(--color-rojo);
+	font-weight: 500;
+}
+
+.card-popular .card-content{
+	text-align: center ;
+}
+
+.card-popular img{
+	text-align: center;
+	width: 120px;
+}
+
+
+.card-popular h3 {
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.card-popular h4 {
+	font-size: 20px;
+	font-weight: 300;
+	text-align: center;
+}
+.card-popular .card-footer{
+	background-color: var(--color-rojo);
+	color: #fff;
+}
+
+.card-popular .card-footer a{
+	
+	color: #fff;
+}
+
+.toolbar-bottom a,
+.toolbar-bottom i{
+	
+	color: var(--color-rojo);
+}
+
+.page-content h2{
+
+	color: var(--color-rojo);
+}
+
+.panel-top h2{
+	color: var(--color-rojo);
+	padding-top: 30px;
+	text-align: center;
+}
+	
+.panel-top i{
+	color: var(--color-rojo);
+	
+}
+
+.card-intro h5{
+	color: var(--color-rojo);
+	
+}
+h10{
+	color: #000;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
